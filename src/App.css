@@ -35,14 +35,15 @@ h1{
   margin: 25px 0;
   min-width: 20%;
   height: 2em;
-  color:white;
+  background-color: rgb(113, 107, 107);
+  color: white;
   font-size: 19px;
   padding-left:8px ;
 }
 #btn{
-  background: #acecf7;
+  background-color:rgb(199, 88, 88);
   border: none;
-  color: navy;
+  color: white;
   padding: 5px;
   font-size: 16px;
   min-width: 60%;
@@ -50,4 +51,6 @@ h1{
   border-top-right-radius:12% ;
   border-bottom-left-radius:12% ;
 }
-
+input::placeholder{
+  color: aliceblue;
+}
